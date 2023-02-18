@@ -38,6 +38,12 @@ const Home = ({ emp, addEmp }) => {
   const validationSchema = Yup.object({
     fname: Yup.string().required("Required"),
     lname: Yup.string().required("Required"),
+    gender: Yup.string().required("Required"),
+    marital: Yup.string().required("Required"),
+    dob: Yup.string().required("Required"),
+    email: Yup.string().required("Required"),
+    contact: Yup.string().required("Required"),
+    address: Yup.string().required("Required")
   });
 
   const { handleSubmit, handleChange, values, errors, touched } = useFormik({
@@ -54,6 +60,18 @@ const Home = ({ emp, addEmp }) => {
     validationSchema,
     onSubmit(value) {
       console.log("values ---->", value);
+      addEmp({
+        id: emp.length > 0 ? emp[emp.length - 1].id + 1 : 0,
+        fname: values.fname,
+        lname: values.lname,
+        gender: values.gender,
+        marital: values.marital,
+        dob: values.dob,
+        email: values.email,
+        contact: values.contact,
+        address: values.address,
+      })
+      alert("Succefully record inserted")
     },
   });
 
@@ -102,7 +120,7 @@ const Home = ({ emp, addEmp }) => {
           <div className="col-6 col-md-4 ">
             <label htmlFor="gender">Gender</label>
           </div>
-
+          {errors.gender && touched.gender && errors.gender}
           <div className="col-6 col-md-4 mb-1">
             <div className="custom-control custom-radio custom-control-inline ">
               <input
@@ -161,6 +179,7 @@ const Home = ({ emp, addEmp }) => {
             <br />
             <br />
           </div>
+          {errors.marital && touched.marital && errors.marital}
         </div>
 
         <div className="row">
@@ -178,6 +197,7 @@ const Home = ({ emp, addEmp }) => {
             <br />
             <br />
           </div>
+          {errors.dob && touched.dob && errors.dob}
         </div>
 
         <div className="row">
@@ -195,6 +215,7 @@ const Home = ({ emp, addEmp }) => {
             <br />
             <br />
           </div>
+          {errors.email && touched.email && errors.email}
         </div>
 
         <div className="row">
@@ -212,6 +233,7 @@ const Home = ({ emp, addEmp }) => {
             <br />
             <br />
           </div>
+          {errors.contact && touched.contact && errors.contact}
         </div>
 
         <div className="row">
@@ -229,6 +251,7 @@ const Home = ({ emp, addEmp }) => {
             <br />
             <br />
           </div>
+          {errors.address && touched.address && errors.address}
         </div>
         <div className="row ">
           <div className="col-6 col-md-4"></div>
@@ -238,19 +261,19 @@ const Home = ({ emp, addEmp }) => {
                 <button
                   type="submit"
                   className="btn btn-primary"
-                  onClick={() =>
-                    addEmp({
-                      id: emp.length > 0 ? emp[emp.length - 1].id + 1 : 0,
-                      fname: values.fname,
-                      lname: values.lname,
-                      gender: values.gender,
-                      marital: values.marital,
-                      dob: values.dob,
-                      email: values.email,
-                      contact: values.contact,
-                      address: values.address,
-                    })
-                  }
+                // onClick={() =>
+                //   addEmp({
+                //     id: emp.length > 0 ? emp[emp.length - 1].id + 1 : 0,
+                //     fname: values.fname,
+                //     lname: values.lname,
+                //     gender: values.gender,
+                //     marital: values.marital,
+                //     dob: values.dob,
+                //     email: values.email,
+                //     contact: values.contact,
+                //     address: values.address,
+                //   })
+                // }
                 >
                   Register
                 </button>

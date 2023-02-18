@@ -25,14 +25,14 @@ const initialState = [
   },
   {
     id: 3,
-    fname: "Rinku",
-    lname: "banne",
+    fname: "Katrina",
+    lname: "Kaif",
     gender: "Female",
     marital: "Unmarried",
     dob: "10-01-2003",
-    email: "rinkubanne@gmail.com",
+    email: "katkaif@gmail.com",
     contact: "123456789",
-    address: "Solapur",
+    address: "Mumbai",
   },
 ];
 
