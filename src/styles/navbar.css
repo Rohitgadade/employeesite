@@ -1,0 +1,20 @@
+.navbar1 {
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+
+.navlink5 {
+  text-decoration: inherit;
+  font-size: 4vh;
+  font-family: Times, Times New Roman, serif;
+  font-weight: bold;
+  margin: 3vh;
+  color: inherit;
+
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: inherit;
+  color: inherit;
+}
