@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Rohitgadade/emplyeesite/static/css/main.ef5f87ab.chunk.css",
-    "main.js": "/Rohitgadade/emplyeesite/static/js/main.0d9d6870.chunk.js",
-    "main.js.map": "/Rohitgadade/emplyeesite/static/js/main.0d9d6870.chunk.js.map",
-    "runtime-main.js": "/Rohitgadade/emplyeesite/static/js/runtime-main.d54f07d0.js",
-    "runtime-main.js.map": "/Rohitgadade/emplyeesite/static/js/runtime-main.d54f07d0.js.map",
-    "static/js/2.8a9c9c5b.chunk.js": "/Rohitgadade/emplyeesite/static/js/2.8a9c9c5b.chunk.js",
-    "static/js/2.8a9c9c5b.chunk.js.map": "/Rohitgadade/emplyeesite/static/js/2.8a9c9c5b.chunk.js.map",
-    "static/js/3.fa9ffddf.chunk.js": "/Rohitgadade/emplyeesite/static/js/3.fa9ffddf.chunk.js",
-    "static/js/3.fa9ffddf.chunk.js.map": "/Rohitgadade/emplyeesite/static/js/3.fa9ffddf.chunk.js.map",
-    "index.html": "/Rohitgadade/emplyeesite/index.html",
-    "static/css/main.ef5f87ab.chunk.css.map": "/Rohitgadade/emplyeesite/static/css/main.ef5f87ab.chunk.css.map",
-    "static/js/2.8a9c9c5b.chunk.js.LICENSE.txt": "/Rohitgadade/emplyeesite/static/js/2.8a9c9c5b.chunk.js.LICENSE.txt"
+    "main.css": "/Rohitgadade/employeesite/static/css/main.ef5f87ab.chunk.css",
+    "main.js": "/Rohitgadade/employeesite/static/js/main.0d9d6870.chunk.js",
+    "main.js.map": "/Rohitgadade/employeesite/static/js/main.0d9d6870.chunk.js.map",
+    "runtime-main.js": "/Rohitgadade/employeesite/static/js/runtime-main.b0514fd6.js",
+    "runtime-main.js.map": "/Rohitgadade/employeesite/static/js/runtime-main.b0514fd6.js.map",
+    "static/js/2.8a9c9c5b.chunk.js": "/Rohitgadade/employeesite/static/js/2.8a9c9c5b.chunk.js",
+    "static/js/2.8a9c9c5b.chunk.js.map": "/Rohitgadade/employeesite/static/js/2.8a9c9c5b.chunk.js.map",
+    "static/js/3.fa9ffddf.chunk.js": "/Rohitgadade/employeesite/static/js/3.fa9ffddf.chunk.js",
+    "static/js/3.fa9ffddf.chunk.js.map": "/Rohitgadade/employeesite/static/js/3.fa9ffddf.chunk.js.map",
+    "index.html": "/Rohitgadade/employeesite/index.html",
+    "static/css/main.ef5f87ab.chunk.css.map": "/Rohitgadade/employeesite/static/css/main.ef5f87ab.chunk.css.map",
+    "static/js/2.8a9c9c5b.chunk.js.LICENSE.txt": "/Rohitgadade/employeesite/static/js/2.8a9c9c5b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d54f07d0.js",
+    "static/js/runtime-main.b0514fd6.js",
     "static/js/2.8a9c9c5b.chunk.js",
     "static/css/main.ef5f87ab.chunk.css",
     "static/js/main.0d9d6870.chunk.js"
