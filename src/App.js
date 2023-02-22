@@ -13,9 +13,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/display" component={() => <EmployeeForm />} />
-          <Route path="/edit/:id" component={() => <EditEmployee />} />
-          <Route path="/search" component={() => <SearchEmployee />} />
+          <Route path="/display" end component={() => <EmployeeForm />} />
+          <Route path="/edit/:id" end component={() => <EditEmployee />} />
+          <Route path="/search" end component={() => <SearchEmployee />} />
         </Switch>
       </Router>
     </div>
